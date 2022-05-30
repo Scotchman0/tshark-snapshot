@@ -7,7 +7,7 @@ this doesn't do anything you couldn't run manually, but it's handy for me so I c
 
 
 #resources:
-$ tcpdump -s 0 -n -i ethX -w /tmp/$(hostname)-$(date +"%Y-%m-%d-%H-%M-%S").pcap 
+> $ tcpdump -s 0 -n -i ethX -w /tmp/$(hostname)-$(date +"%Y-%m-%d-%H-%M-%S").pcap 
 
 how to capture packets from inside OCP3.11 pod:
 https://access.redhat.com/solutions/3480421
